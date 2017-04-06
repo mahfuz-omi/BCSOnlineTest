@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BCS Online Test</string>
+    <string name="home_banner_id">ca-app-pub-7912682669795193/9068753869</string>
+    <string name="about_banner_id">ca-app-pub-7912682669795193/2448640667</string>
+    <string name="saved_question_banner_id">ca-app-pub-7912682669795193/5402107062</string>
+    <string name="history_banner_id">ca-app-pub-7912682669795193/3925373866</string>
+    <string name="login_banner_id">ca-app-pub-7912682669795193/7282466261</string>
+    <string name="banner_test">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="register_banner_id">ca-app-pub-7912682669795193/3910197462</string>
+    <string name="interstitial_id">ca-app-pub-7912682669795193/1530310666</string>
+    <string name="FacebookOrNormalLogin_banner_id">ca-app-pub-7912682669795193/6314300269</string>
+    <string name="facebook_app_id">622496924579871</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>
+</resources>

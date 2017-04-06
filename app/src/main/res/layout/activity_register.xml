@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dip">
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:gravity="center"
+            android:text="REGISTER"
+            android:textSize="25dip"
+            android:layout_weight="0.07"
+            android:textStyle="bold" />
+        <!--  Name Label -->
+    <!--  Name TextField -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameWrapper"
+        android:layout_width="match_parent"
+        android:layout_weight="0.20"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="username"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <!--  Email Label -->
+    <!--  Email TextField -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emailWrapper"
+        android:layout_width="match_parent"
+        android:layout_weight="0.20"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/email_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="email address"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <!--  Password Label -->
+    <!--  Password TextField -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordWrapper"
+        android:layout_width="match_parent"
+        android:layout_weight="0.20"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="password"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <!--  Error message -->
+        <TextView android:id="@+id/register_error"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e30000"
+            android:layout_weight="0.06"
+            android:padding="10dip"
+            android:textStyle="bold"/>
+
+        <!--  Login Button -->
+    <ImageButton
+        android:id="@+id/btnRegister"
+        android:src="@drawable/register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20"
+        android:layout_marginTop="20dip"
+        android:text="Register" />
+
+        <!--  Link to Login Screen -->
+        <Button
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:background="@null"
+            android:layout_weight="0.07"
+            android:text="Already registred. Login Me!"
+            android:textColor="#0000FF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+

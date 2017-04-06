@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:textStyle="italic|bold"
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="Bangladesh Civil Service (BCS) Examination is a nationwide competitive examination in Bangladesh conducted by the Bangladesh Public Service Commission (BPSC) for recruitment to the various Bangladesh Civil Service cadres, including BCS (Admin), BCS (Taxation), BCS (Foreign Affairs), and BCS (Police) among others.[1] The examination is conducted in three phases - the preliminary examination, the written examination and the viva voce (interview). The entire process from the notification of the preliminary examination to declaration of the final results takes 1.5 to 2 years."/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_margin="15dp"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/home_banner_id">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
