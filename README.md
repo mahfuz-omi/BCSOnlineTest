@@ -1,0 +1,5 @@
+# BCSOnlineTest
+
+BCS Online Exam Test is a dynamic MCQ question bank providing software which is continuously updating it's question Bank.Test Online option facilitates you with showing all currently available question sets which is not tested(submitted) by you before. Every set has exactly 10 MCQ questions prepared for BCS preliminary exam.Total time allocated for every set is 300 seconds(5 mins). Marks count is 1 for each question.There are having no negative marking.For attending online test, everyone should login to their respective account.Anyone can login with Facebook, or with BCS Test Account.Those who doesn't has account must register.An email verification is performed after registration. After submitting a set, you will be provided with your marks for that particular set, ranking for this set among all other candidates etc. You can save all your mistakes during exam. 
+History options shows all past submissions made by you.Push Notification Service is enabled in this software.So,when new questions arrive, you will get notification if you are logged in.
+(****Important*****: For verification mail, check your spam folder along with your inbox)
