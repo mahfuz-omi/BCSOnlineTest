@@ -2,6 +2,7 @@
 <LinearLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="10dip"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -68,14 +69,13 @@
             android:src="@drawable/login"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
             android:layout_weight="0.3"
             android:text="Login" />
 
         <!--  Link to Registration Screen -->
-        <Button
+        <info.hoang8f.widget.FButton
+            ads:buttonColor="@color/colorPrimary"
             android:id="@+id/forgot_pass"
-            android:textColor="#e30000"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -85,7 +85,7 @@
             android:id="@+id/btnLinkToRegisterScreen"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
+            android:layout_marginTop="20dip"
             android:layout_weight="0.1"
             android:background="@null"
             android:text="I don&apos;t have account. Register Me!"

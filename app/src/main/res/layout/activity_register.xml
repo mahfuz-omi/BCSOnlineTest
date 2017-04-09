@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
-    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="10dip">
+    android:padding="5dip">
         <!--  View Title Label -->
         <TextView
             android:layout_width="fill_parent"
@@ -79,10 +78,9 @@
     <ImageButton
         android:id="@+id/btnRegister"
         android:src="@drawable/register"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.20"
-        android:layout_marginTop="20dip"
         android:text="Register" />
 
         <!--  Link to Login Screen -->
@@ -90,10 +88,10 @@
             android:id="@+id/btnLinkToLoginScreen"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dip"
+            android:layout_marginTop="20dip"
             android:background="@null"
             android:layout_weight="0.07"
-            android:text="Already registred. Login Me!"
+            android:text="Already registered. Login Me!"
             android:textColor="#0000FF"
             android:textStyle="bold" />
 

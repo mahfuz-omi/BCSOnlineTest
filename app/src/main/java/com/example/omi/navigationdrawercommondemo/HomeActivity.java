@@ -10,6 +10,7 @@ import com.google.android.gms.ads.MobileAds;
 
 public class HomeActivity extends DrawerActivity {
     AdView mAdView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_home);
@@ -19,11 +20,8 @@ public class HomeActivity extends DrawerActivity {
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-7912682669795193~7592020668");
         this.selectedNavigation = 0;
         TextView text = (TextView) findViewById(R.id.text);
-        String data = "<font color=#3eadeb>Bangladesh Civil Service (BCS)</font> Examination is a nationwide competitive examination in Bangladesh conducted by the Bangladesh Public Service Commission (BPSC) for recruitment to the various Bangladesh Civil Service cadres, including BCS (Admin), BCS (Taxation), BCS (Foreign Affairs), and BCS (Police) among others.[1] The examination is conducted in three phases - the preliminary examination, the written examination and the viva voce (interview). The entire process from the notification of the preliminary examination to declaration of the final results takes 1.5 to 2 years.";
+        String data = "<font color=#303F9F>Bangladesh Civil Service (BCS)</font> Examination is a nationwide competitive examination in Bangladesh conducted by the Bangladesh Public Service Commission (BPSC) for recruitment to the various Bangladesh Civil Service cadres, including BCS (Admin), BCS (Taxation), BCS (Foreign Affairs), and BCS (Police) among others.[1] The examination is conducted in three phases - the preliminary examination, the written examination and the viva voce (interview). The entire process from the notification of the preliminary examination to declaration of the final results takes 1.5 to 2 years.";
         text.setText(Html.fromHtml(data));
-
-
-
 
 
     }

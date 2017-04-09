@@ -17,6 +17,8 @@
             android:orientation="vertical">
 
             <TextView
+                android:textColor="@color/colorPrimary"
+                android:padding="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/text"

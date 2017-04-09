@@ -49,7 +49,7 @@ public class ShowQuestionsActivity extends AppCompatActivity {
     LinearLayout mainLayout;
     RadioGroup[] radioGroup;
     Question[] questions;
-    int numOfQuestions = 10;
+    int numOfQuestions = 1;
     Button submitButton;
     int totalTimes;
     ProgressDialog pDialog;
@@ -84,9 +84,16 @@ public class ShowQuestionsActivity extends AppCompatActivity {
         return true;
     }
 
+
+
+    @Override
+    protected void onStop() {
+        this.timer.cancel();
+        super.onStop();
+    }
+
     @Override
     public void onBackPressed() {
-        this.timer.cancel();
         super.onBackPressed();
     }
 

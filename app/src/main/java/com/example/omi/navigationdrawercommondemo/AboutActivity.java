@@ -13,8 +13,6 @@ public class AboutActivity extends DrawerActivity {
     AdView mAdView;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_about);
@@ -23,8 +21,8 @@ public class AboutActivity extends DrawerActivity {
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-7912682669795193~7592020668");
 
         TextView text = (TextView) findViewById(R.id.text);
-        String data = "<p><font color=#3eadeb>BCS Online Test</font> is a dynamic MCQ question bank software which is continuously updating it's question Bank.<font color=#3eadeb>Test Online</font> option facilitates you with showing all currently available question sets which is not tested(submitted) by you before. Every set has exactly 10 MCQ questions prepared for BCS preliminary exam.Total time allocated for every set is 300 seconds(5 mins). Marks count is 1 for each question.There are having no negative marking.For attending online test, everyone should login to their respective account.Those who doesn't has account must register.An email verification is performed after registration. After submitting a set, you will be provided with your marks for that particular set, ranking for this set among all other candidates etc. You can save all your mistakes during exam.  </p>" +
-                "    <p> <font color=#3eadeb>History</font> options shows all past submissions made by you.<font color=#3eadeb>Push Notification Service</font> is enabled in this software.So,when new questions arrive, you will get notification if you are logged in. </p>";
+        String data = "<p><font color=#303F9F>BCS Online Test</font> is a dynamic MCQ question bank software which is continuously updating it's question Bank.<font color=#3eadeb>Test Online</font> option facilitates you with showing all currently available question sets which is not tested(submitted) by you before. Every set has exactly 10 MCQ questions prepared for BCS preliminary exam.Total time allocated for every set is 300 seconds(5 mins). Marks count is 1 for each question.There are having no negative marking.For attending online test, everyone should login to their respective account.Those who doesn't has account must register.An email verification is performed after registration. After submitting a set, you will be provided with your marks for that particular set, ranking for this set among all other candidates etc. You can save all your mistakes during exam.  </p>" +
+                "    <p> <font color=#303F9F>History</font> options shows all past submissions made by you.<font color=#303F9F>Push Notification Service</font> is enabled in this software.So,when new questions arrive, you will get notification if you are logged in. </p>";
 
         text.setText(Html.fromHtml(data));
     }

@@ -35,7 +35,7 @@ import org.json.JSONObject;
 
 import java.util.Map;
 
-public class FacebookORNormalLoginActivity extends Activity {
+public class FacebookORNormalLoginActivity extends AppCompatActivity {
     LoginButton facebook_login;
     Button normal_login;
     CallbackManager callbackManager;
@@ -48,6 +48,9 @@ public class FacebookORNormalLoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facebook_ornormal_login);
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-7912682669795193~7592020668");
+
+        // enable back button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         facebook_login = (LoginButton) findViewById(R.id.facebook_login);
