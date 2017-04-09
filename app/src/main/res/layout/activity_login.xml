@@ -2,7 +2,6 @@
 <LinearLayout android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    xmlns:app="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="10dip"
     xmlns:android="http://schemas.android.com/apk/res/android">

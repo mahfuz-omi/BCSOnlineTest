@@ -5,11 +5,11 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.omi.bcstest"
+        applicationId "com.omi.bcstest_new"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.2"
         multiDexEnabled true
     }
     buildTypes {
